@@ -18,7 +18,7 @@ PAAGridworld2D **_NON_** implementa l'algoritmo per il raggiungimento dell'obiet
 
 ## Download
 
-Potete trovare il file eseguibile all'interno della sezione releases [releases](https://github.com/smileapplications/PAAGridworld2D/releases) 
+Potete trovare il file eseguibile all'interno della sezione [releases](https://github.com/smileapplications/PAAGridworld2D/releases) 
 
 ### File robot.txt
 
@@ -85,3 +85,8 @@ Inoltre al passaggio del robot le "mattonelle" si coloreranno nel seguente modo:
 * ![#FFFF00](https://placehold.it/15/FFFF00/000000?text=+) GIALLO se la mattonella è libera ed è la prima volta che il robot ci passa sopra
 * ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) ROSSO se la mattonella non è libera e il robot ci passa sopra lo stesso (=> errore nello scrivere l'input)
 * ![#00FFFF](https://placehold.it/15/00FFFF/000000?text=+) AZZURRO se la mattonella è libera ma il robot ci è passato almeno una seconda volta (=> ci sono dei loop nel percorso)
+
+### Problemi comuni
+* Su windows attenzione a come nominate il file **robot.txt**. Se non avete le estensioni visibili di default dovete chiamare il file semplicemente **robot**
+
+Per altri problemi scrivere un [Issue](https://github.com/smileapplications/PAAGridworld2D/issues)
