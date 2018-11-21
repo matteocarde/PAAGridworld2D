@@ -75,3 +75,13 @@ Questo è un esempio per una griglia **8x8**, con densita **0.7** e seed **12345
     7,7
 
 Ovviamente il percorso dipende dall'implementazione scelta
+
+### Grafica
+In altro a destra trovate tre pulsanti
+* Il primo vi permetterà di resettare il robot e di ricaricare il file robot.txt (potete quindi anche cambiare il file al volo senza dover chiudere e riaprire il programma)
+* Gli altri due vi permetteranno di aumentare o diminuire la velocità del robot
+
+Inoltre al passaggio del robot le "mattonelle" si coloreranno nel seguente modo:
+* ![#FFFF00](https://placehold.it/15/FFFF00/000000?text=+) GIALLO se la mattonella è libera ed è la prima volta che il robot ci passa sopra
+* ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) ROSSO se la mattonella non è libera e il robot ci passa sopra lo stesso (=> errore nello scrivere l'input)
+* ![#00FFFF](https://placehold.it/15/00FFFF/000000?text=+) AZZURRO se la mattonella è libera ma il robot ci è passato almeno una seconda volta (=> ci sono dei loop nel percorso)
